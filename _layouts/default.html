@@ -5,35 +5,14 @@
 
   <body>
 
-    <header>
-      <nav class="navbar navbar-default" role="navigation"> <!-- navbar-fixed-top -->
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <a class="navbar-brand" href="https://rime.co/">
-              <img alt="brand" src="https://static.rime.co/images/logo.png" width="142px"> <!-- height="35px" -->
-            </a>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-              <!-- <li><a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a></li> -->
-              <!-- <li><a href="{{ site.github.repo }}/edit/master/site/_docs/quickstart.md">Edit</a></li> -->
-              <li><a href="{{ site.github.repo }}/zipball/master">Download v{{ site.version }}</a></li>
-              <li><a href="{{ site.github.repo }}">View on GitHub</a></li>
-            </ul>
-          </div>
-
-        </div>
-      </nav>
-    </header>
+    {% include header.html %}
 
     <section class="main">
       <div class="container head-padding">
         <div class="row">
           <div class="col-sm-push-8 col-sm-4">
-            {% include sidebar.html %}
+            {% include custom-sidebar.html %}
+            <br>
           </div>
         
           <div class="col-sm-pull-4 col-sm-8">

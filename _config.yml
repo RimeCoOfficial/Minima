@@ -2,7 +2,9 @@
 markdown:         kramdown
 highlighter:      rouge
 
-gems:             [jekyll-paginate, jekyll-gist]
+gems:             
+                  - jekyll-gist
+                  - jekyll-sitemap
 
 # Permalinks
 permalink:        pretty
@@ -16,14 +18,23 @@ url:              http://wiki.rime.co
 baseurl:          /jelly-bean
 
 author:
-  name:           'Shubhajit Saha'
-  url:            http://rime.co/@suvozit
-
-paginate:         5
-# paginate_path:    'page:num'
+  name:           'Rime'
+  url:            https://rime.co
 
 # Custom vars
 version:          1.0.0
 
 github:
   repo:           https://github.com/rimeofficial/jelly-bean
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page

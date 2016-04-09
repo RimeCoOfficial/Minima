@@ -1,9 +1,7 @@
 ---
 layout: default
-title: GitHub Pages Example
+title: Home
 ---
 
-## Build infos
-
-- **Build time:** {{ site.time | date_to_rfc822 }}
-- **Unix build time:** {{ site.time | date:"%s" }}
+# {{ site.title }} <small>{{ site.tagline }}</small>
+{{ site.description }}
