@@ -1,0 +1,29 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+gems:             [jekyll-paginate, jekyll-gist]
+
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
+
+# Setup
+title:            Jelly Bean
+tagline:          'A Jekyll theme'
+description:      'A slenderize two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> wiki theme that pairs a prominent sidebar with uncomplicated content.'
+url:              http://wiki.rime.co
+baseurl:          /jelly-bean
+
+author:
+  name:           'Shubhajit Saha'
+  url:            http://rime.co/@suvozit
+
+paginate:         5
+# paginate_path:    'page:num'
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/rimeofficial/jelly-bean
