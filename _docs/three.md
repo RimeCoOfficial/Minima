@@ -2,4 +2,4 @@
 title: Three
 ---
 
-<img class="img-responsive" src="http://placehold.it/512?text=3">
+![](http://placehold.it/512?text=2)
