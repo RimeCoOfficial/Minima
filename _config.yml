@@ -6,10 +6,6 @@ gems:
                   - jekyll-gist
                   - jekyll-sitemap
 
-# Permalinks
-permalink:        pretty
-# relative_permalinks: true
-
 # Setup
 title:            Jelly Bean
 tagline:          'A Jekyll theme'
@@ -24,6 +20,7 @@ author:
 # Custom vars
 version:          1.0.0
 
+# Github vars
 github:
   repo:           https://github.com/rimeofficial/jelly-bean
 
