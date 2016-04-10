@@ -27,13 +27,13 @@ github:
   repo:           https://github.com/rimeofficial/jelly-bean
 
 collections:
-  my_collection:
+  docs:
     output: true
     permalink: /:path/
 
 defaults:
   - scope:
       path: ""
-      type: my_collection
+      type: docs
     values:
       layout: page

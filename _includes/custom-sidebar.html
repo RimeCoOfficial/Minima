@@ -18,22 +18,13 @@
         {% assign c = "" %}
       {% endif %}
 
-      {% assign p = site.pages | where:"url",item_url | first %}
+      {% assign p = site.docs | where:"url",item_url | first %}
       {% if p %}
         <li class="{{ c }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
       {% endif %}
 
     {% endfor %}
   </ul>
-{% endfor %}
-
-{% assign pages_list = site.my_collection %}
-{% for node in pages_list %}
-  {% if node.title != null %}
-    {% if node.layout == "page" %}
-      {{ node.url }}
-    {% endif %}
-  {% endif %}
 {% endfor %}
 
 <br>
