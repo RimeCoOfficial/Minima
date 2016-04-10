@@ -27,6 +27,15 @@
   </ul>
 {% endfor %}
 
+{% assign pages_list = site.pages %}
+{% for node in pages_list %}
+  {% if node.title != null %}
+    {% if node.layout == "page" %}
+      {{ node.url }}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
 <br>
 
 <ul class="nav nav-pills nav-stacked">

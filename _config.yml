@@ -6,6 +6,8 @@ gems:
                   - jekyll-gist
                   - jekyll-sitemap
 
+permalink: pretty
+
 # Setup
 title:            Jelly Bean
 tagline:          'A Jekyll theme'
@@ -24,14 +26,14 @@ version:          1.0.0
 github:
   repo:           https://github.com/rimeofficial/jelly-bean
 
-collections:
-  pages:
-    output: true
-    permalink: /:path/
+# collections:
+#   pages:
+#     output: true
+#     permalink: /:path/
 
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
+# defaults:
+#   - scope:
+#       path: ""
+#       type: pages
+#     values:
+#       layout: page
