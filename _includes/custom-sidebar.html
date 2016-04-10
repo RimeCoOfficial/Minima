@@ -27,7 +27,7 @@
   </ul>
 {% endfor %}
 
-{% assign pages_list = site.pages %}
+{% assign pages_list = site.my_collection %}
 {% for node in pages_list %}
   {% if node.title != null %}
     {% if node.layout == "page" %}
