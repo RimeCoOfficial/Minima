@@ -11,7 +11,7 @@ permalink: pretty
 # Setup
 title:            Jelly Bean
 tagline:          'A Jekyll theme'
-description:      'A slenderize two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> wiki theme that pairs a prominent sidebar with uncomplicated content.'
+description:      'A slenderize two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> documentation theme that pairs a prominent sidebar with uncomplicated content.'
 url:              http://wiki.rime.co
 baseurl:          /jelly-bean
 
