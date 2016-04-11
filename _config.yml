@@ -2,29 +2,22 @@
 markdown:         kramdown
 highlighter:      rouge
 
-gems:             
-                  - jekyll-gist
-                  - jekyll-sitemap
+gems:             [jekyll-gist, jekyll-sitemap]
 
-permalink: pretty
+permalink:        pretty
 
 # Setup
 title:            Jelly Bean
 tagline:          'A Jekyll theme'
 description:      'A slenderize two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> documentation theme that pairs a prominent sidebar with uncomplicated content.'
-url:              http://wiki.rime.co
 baseurl:          /jelly-bean
-
-author:
-  name:           'Rime'
-  url:            https://rime.co
 
 # Custom vars
 version:          1.0.0
 
 # Github vars
 github:
-  repo:           https://github.com/rimeofficial/jelly-bean
+  username:       rimeofficial
 
 collections:
   docs:
@@ -33,7 +26,7 @@ collections:
 
 defaults:
   - scope:
-      path: ""
+      path: ''
       type: docs
     values:
       layout: page
