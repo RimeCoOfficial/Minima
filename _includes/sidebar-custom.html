@@ -1,0 +1,35 @@
+<ul class="nav nav-pills nav-stacked">
+  <li class="{% if page.url == '/' %}active{% endif %}" >
+    <a href="{{ site.baseurl }}/">Home</a>
+  </li>
+</ul>
+
+{% for section in site.data.sidebar %}
+  {% if section.title %}<h5>{{ section.title }}</h5>{% endif %}
+
+  {% assign items = section.pages %}
+  <ul class="nav nav-pills nav-stacked">
+    {% for item in items %}
+      {% assign item_url = item | prepend:"/" | append:"/" %}
+
+      {% if item_url == page.url %}
+        {% assign c = "active" %}
+      {% else %}
+        {% assign c = "" %}
+      {% endif %}
+
+      {% assign p = site.docs | where:"url",item_url | first %}
+      {% if p %}
+        <li class="{{ c }}"><a href="{{ site.baseurl }}{{ p.url }}">{{ p.title }}</a></li>
+      {% endif %}
+
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+<br>
+
+<ul class="nav nav-pills nav-stacked">
+  <li><a href="https://github.com/{{ site.github.username }}{{ site.baseurl }}/archive/v{{ site.version }}.zip">Download v{{ site.version }}</a></li>
+  <li><a href="https://github.com/{{ site.github.username }}{{ site.baseurl }}">View on GitHub</a></li>
+</ul>
