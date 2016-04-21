@@ -1,5 +1,5 @@
 # Jelly Bean
-A slenderize two-column [Jekyll](http://jekyllrb.com) documentation theme that pairs a prominent sidebar with uncomplicated content.
+A slenderize two-column [Jekyll](http://jekyllrb.com) documentation theme that pairs a prominent sidebar with uncomplicated content. Its built on [Bootstrap](http://getbootstrap.com/) framework.
 
 ## Pages
 Create a list of pages in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/) and placing them in `_docs` folder
@@ -10,13 +10,13 @@ title: One
 ```
 
 ## Sidebar `Default`
-Alphabetically sorted
-![](./images/Screenshot%202016-04-21%2012.51.58.png?raw=true)
+Alphabetically sorted list of pages
+![](./images/Screenshot%022016-04-21%0219.08.08.png?raw=true)
 
 ## Custom Sidebar
-![](./images/Screenshot%202016-04-21%2012.51.37.png?raw=true)
+![](./images/Screenshot%022016-04-21%0219.08.48.png?raw=true)
 
-For custom sidebar add `-custom` to `_layouts/default.html`
+For custom list of pages add `-custom` to `_layouts/default.html`
 ```
 {% include sidebar-custom.html %}
 ```
