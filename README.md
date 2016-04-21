@@ -11,10 +11,10 @@ title: One
 
 ## Sidebar `Default`
 Alphabetically sorted list of pages
-![](./images/Screenshot%202016-04-21%2012.51.58.png?raw=true)
+![](./images/Screenshot%022016-04-21%0219.08.08.png?raw=true)
 
 ## Custom Sidebar
-![](./images/Screenshot%202016-04-21%2012.51.37.png?raw=true)
+![](./images/Screenshot%022016-04-21%0219.08.48.png?raw=true)
 
 For custom list of pages add `-custom` to `_layouts/default.html`
 ```
