@@ -2,4 +2,4 @@
 title: Two
 ---
 
-![](http://placehold.it/512?text=2)
+![](../images/2.png)

@@ -32,3 +32,5 @@ defaults:
       type:       docs
     values:
       layout:     page
+
+ga:               UA-41643154-1
