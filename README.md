@@ -8,7 +8,7 @@ Create a list of pages in the sidebar by assigning each Jekyll page the correct 
 title: Foobar
 ---
 
-The terms foobar or foo and others are used as placeholder names in computer programming or computer-related documentation. They have been used to ...
+The terms **foobar** (/ˈfuːbɑːr/), or **foo** and others are used as [placeholder names] (also referred to as [metasyntactic variables]) in [computer programming] or computer-related documentation.[1] They have been used to ...
 ```
 
 ## Sidebar `Default`
