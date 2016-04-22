@@ -37,4 +37,4 @@ ga:               UA-41643154-1
 
 app:
   name:           Rime
-  host:           rime.co
+  domain:         rime.co
