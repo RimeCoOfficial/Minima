@@ -5,16 +5,18 @@ A slenderize two-column [Jekyll](http://jekyllrb.com) documentation theme that p
 Create a list of pages in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/) and placing them in `_docs` folder
 ```
 ---
-title: One
+title: Foobar
 ---
+
+The terms **foobar** (/ˈfuːbɑːr/), or **foo** and others are used as [placeholder names] (also referred to as [metasyntactic variables]) in [computer programming] or computer-related documentation.[1] They have been used to ...
 ```
 
 ## Sidebar `Default`
 Alphabetically sorted list of pages
-![](./images/Screenshot%022016-04-21%0219.08.08.png?raw=true)
+![](./images/Screenshot%202016-04-21%2019.08.08.png?raw=true)
 
 ## Custom Sidebar
-![](./images/Screenshot%022016-04-21%0219.08.48.png?raw=true)
+![](./images/Screenshot%202016-04-21%2019.08.48.png?raw=true)
 
 For custom list of pages add `-custom` to `_layouts/default.html`
 ```
