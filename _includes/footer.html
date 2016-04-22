@@ -2,13 +2,13 @@
   <section>
     <div class="container">
       <ul class="list-inline pull-right">
-        <li><a class="link-light-inverse" href="http://rime.co/@rime">Social</a></li>
-        <li><a class="link-light-inverse" href="http://blog.rime.co">Blog</a></li>
+        <li><a class="link-light-inverse" href="http://{{ site.app.host }}/@rime">Social</a></li>
+        <li><a class="link-light-inverse" href="http://blog.{{ site.app.host }}">Blog</a></li>
         <li><a class="link-light-inverse" href="{{ site.baseurl }}/sitemap.xml">Sitemap</a></li>
       </ul>
       <ul class="list-inline">
         <li>
-          &copy; {{ site.time | date: '%Y' }} Rime, All rights reserved.
+          &copy; {{ site.time | date: '%Y' }} {{ site.app.name }}, All rights reserved.
         </li>
       </ul>
     </div>
