@@ -34,3 +34,7 @@ defaults:
       layout:     page
 
 ga:               UA-41643154-1
+
+app:
+  name:           Rime
+  domain:         rime.co
