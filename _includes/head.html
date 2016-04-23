@@ -23,9 +23,9 @@ Build infos
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
+      {{ site.title }} &ndash; {{ site.app.name }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ site.title }} &middot; {{ page.title }} &ndash; {{ site.app.name }}
     {% endif %}
   </title>
 
