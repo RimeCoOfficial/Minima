@@ -8,7 +8,6 @@ permalink:        pretty
 
 # Setup
 title:            Jelly Bean
-tagline:          'A Jekyll theme'
 description:      'A slenderize two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> documentation theme that pairs a prominent sidebar with uncomplicated content.'
 baseurl:          /jelly-bean
 

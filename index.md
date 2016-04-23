@@ -3,5 +3,5 @@ layout: default
 title: Home
 ---
 
-# {{ site.title }} <small>{{ site.tagline }}</small>
+# {{ site.title }}
 {{ site.description }}
