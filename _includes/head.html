@@ -29,6 +29,12 @@ Build infos
     {% endif %}
   </title>
 
+  <meta name="description" content="
+    {% if page.title == "Home" %} {{ site.description | strip_html | truncate: 200, '' }}
+    {% else %}                    {{ page.content     | strip_html | truncate: 200, '' }} {% endif %}
+  ">
+  <meta name="keywords" content="">
+
   <!-- CSS -->
   <!-- <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/poole.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/syntax.css">
@@ -48,7 +54,7 @@ Build infos
   <![endif]-->
 
   <!-- Google Fonts CSS -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,700" type="text/css">
 
   <!-- Bootstrap custom -->
   <link rel="stylesheet" href="{{ site.asset_url }}/third-party/plugins/twbs/bootstrap/3.3.5/css/bootstrap.min.css">
