@@ -11,7 +11,7 @@ title:            Jelly Bean
 description:      'A slenderize two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> documentation theme that pairs a prominent sidebar with uncomplicated content. Its built on <a href="http://getbootstrap.com" target="_blank">Bootstrap</a> responsive front-end framework.'
 baseurl:          /jelly-bean
 
-asset_url:        https://static.rime.co
+asset_url:        https://graupel.s3.amazonaws.com
 
 # Custom vars
 version:          1.0.0
