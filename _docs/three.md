@@ -4,7 +4,7 @@ title: Three
 
 ### Includes
 
-* Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example pages](/one))
+* Complete Jekyll setup included (layouts, config, [404]({{ site.baseurl }}/404), [Sitemap]({{ site.baseurl }}/sitemap.xml), posts, and [example pages]({{ site.baseurl }}/one))
 * Mobile friendly design and development
 * Easily scalable text and component sizing with `rem` units in the CSS
 * Support for a wide gamut of HTML elements
