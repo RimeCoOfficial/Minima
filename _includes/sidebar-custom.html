@@ -10,7 +10,7 @@
   {% assign items = section.pages %}
   <ul class="nav nav-pills nav-stacked">
     {% for item in items %}
-      {% assign item_url = item | prepend:"/" | append:"/" %}
+      {% assign item_url = item | prepend:"/" %}
 
       {% if item_url == page.url %}
         {% assign c = "active" %}
