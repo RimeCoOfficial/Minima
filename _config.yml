@@ -23,7 +23,7 @@ github:
 collections:
   docs:
     output:       true
-    permalink:    /:path/
+    permalink:    /:path
 
 defaults:
   - scope:
