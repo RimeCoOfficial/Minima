@@ -34,14 +34,14 @@ Build infos
     {% else %}                    {{ page.content     | strip_html | truncate: 200, '' }} {% endif %}
   ">
   <meta name="keywords" content="">
-  <meta name="thumbnail" content="{{ site.asset_url }}/images/Unitag_QRCode_25432307.png">
+  <!-- <meta name="thumbnail" content="{{ site.baseurl }}/images/Unitag_QRCode_25432307.png"> -->
 
   <!-- CSS -->
-  <!-- <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/poole.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/syntax.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/hyde.css"> -->
 
   <!-- Latest compiled and minified CSS -->
+  <!-- Bootstrap custom -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/third-party/twbs/bootstrap/3.3.6/css/bootstrap.min.css">
+  
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
 
   <!-- Optional theme -->
@@ -57,16 +57,13 @@ Build infos
   <!-- Google Fonts CSS -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,700" type="text/css">
 
-  <!-- Bootstrap custom -->
-  <link rel="stylesheet" href="{{ site.asset_url }}/third-party/plugins/twbs/bootstrap/3.3.5/css/bootstrap.min.css">
-
-  <link rel="stylesheet" href="{{ site.asset_url }}/stylesheets/main.min.css">
-  <link rel="stylesheet" href="{{ site.asset_url }}/stylesheets/gh-pages.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/main.css">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon" sizes="76x76"    href="{{ site.asset_url }}/images/icon_76.png">
-  <link rel="apple-touch-icon" sizes="120x120"  href="{{ site.asset_url }}/images/icon_120.png">
-  <link rel="apple-touch-icon" sizes="152x152"  href="{{ site.asset_url }}/images/icon_152.png">
-  <link rel="apple-touch-icon"                  href="{{ site.asset_url }}/images/icon_152.png">
-  <link rel="icon"             type="image/png" href="{{ site.asset_url }}/images/favicon.ico">
+
+  <!-- <link rel="apple-touch-icon" sizes="76x76"    href="{{ site.baseurl }}/images/icon_76.png">
+  <link rel="apple-touch-icon" sizes="120x120"  href="{{ site.baseurl }}/images/icon_120.png">
+  <link rel="apple-touch-icon" sizes="152x152"  href="{{ site.baseurl }}/images/icon_152.png">
+  <link rel="apple-touch-icon"                  href="{{ site.baseurl }}/images/icon_152.png"> -->
+  <link rel="icon"             type="image/png" href="http://www.google.com/s2/favicons?domain={{ site.app.domain }}">
 </head>
