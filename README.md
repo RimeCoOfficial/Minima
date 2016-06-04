@@ -1,5 +1,5 @@
 # Jelly Bean
-A slenderize two-column [Jekyll](http://jekyllrb.com) documentation theme that pairs a prominent sidebar with uncomplicated content. Its built on [Bootstrap](http://getbootstrap.com) responsive front-end framework.
+A slenderize two-column [Jekyll](http://jekyllrb.com) documentation theme that pairs a prominent navbar with uncomplicated content. Its built on [Bootstrap](http://getbootstrap.com) responsive front-end framework.
 
 ## Minimal Theme `v2.0.0`
 
@@ -10,7 +10,7 @@ This is the raw HTML and styles that are used for the *minimal* theme on [GitHub
 Syntax highlighting is provided on GitHub Pages by [Pygments](http://pygments.org).
 
 ## Pages
-Create a list of pages in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/) and placing them in `_docs` folder
+Create a list of pages in the navbar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/) and placing them in `_docs` folder
 ```
 ---
 title: Foobar
@@ -19,19 +19,19 @@ title: Foobar
 The terms **foobar** (/ˈfuːbɑːr/), or **foo** and others are used as ...
 ```
 
-## Sidebar `Default`
+## Navbar `Default`
 Alphabetically sorted list of pages
-![](./images/Screenshot%202016-06-05%2001.45.17.png)
+![](./images/Screenshot%202016-06-05%2003.30.18.png)
 
-## Custom Sidebar
-![](./images/Screenshot%202016-06-05%2001.45.59.png)
+## Custom Navbar
+![](./images/Screenshot%202016-06-05%2003.30.34.png)
 
-For custom list of pages add `-custom` to `_layouts/default.html`
+For custom list of pages add `-custom` to [_includes/head.html#18](./_includes/head.html#18)
 ```
-{% include sidebar-custom.html %}
+{% include navbar-custom.html %}
 ```
 
-and configure `_data/sidebar.yml`
+and configure `_data/navbar.yml`
 ```
 - title: Getting Started
   pages:

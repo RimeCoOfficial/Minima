@@ -4,7 +4,7 @@
   </li>
 </ul>
 
-{% for section in site.data.sidebar %}
+{% for section in site.data.navbar %}
   {% if section.title %}<h5>{{ section.title }}</h5>{% endif %}
 
   {% assign items = section.pages %}
@@ -30,10 +30,10 @@
 <br>
 
 <ul class="nav nav-pills nav-stacked">
-  <li><a href="https://github.com/{{ site.github.username }}{{ site.baseurl }}/archive/v{{ site.version }}.zip">Download v{{ site.version }}</a></li>
   <li>
-    <a href="https://github.com/{{ site.github.username }}{{ site.baseurl }}">View the Project on GitHub<br>
-    <small class="text-muted">{{ site.github.username }}{{ site.baseurl }}</small>
+    <a href="https://github.com/{{ site.github.username }}{{ site.baseurl }}/archive/v{{ site.version }}.zip">
+      <small class="text-muted">Download</small><br>
+      <strong>ZIP v{{ site.version }}</strong>
     </a>
   </li>
 </ul>
