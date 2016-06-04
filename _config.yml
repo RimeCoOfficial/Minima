@@ -35,5 +35,7 @@ defaults:
 ga:               UA-41643154-1
 
 app:
-  name:           Rime
-  domain:         rime.co
+  title:          Rime
+  home:           rime.co
+  social:         rime
+  blog:           rimeofficial.tumblr.com

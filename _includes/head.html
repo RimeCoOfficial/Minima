@@ -23,9 +23,9 @@ Build infos
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }} &ndash; {{ site.app.name }}
+      {{ site.title }} &ndash; {{ site.app.title }}
     {% else %}
-      {{ site.title }} &middot; {{ page.title }} &ndash; {{ site.app.name }}
+      {{ site.title }} &middot; {{ page.title }} &ndash; {{ site.app.title }}
     {% endif %}
   </title>
 
@@ -65,5 +65,6 @@ Build infos
   <link rel="apple-touch-icon" sizes="120x120"  href="{{ site.baseurl }}/images/icon_120.png">
   <link rel="apple-touch-icon" sizes="152x152"  href="{{ site.baseurl }}/images/icon_152.png">
   <link rel="apple-touch-icon"                  href="{{ site.baseurl }}/images/icon_152.png"> -->
-  <link rel="icon"             type="image/png" href="http://www.google.com/s2/favicons?domain={{ site.app.domain }}">
+  <!-- <link rel="icon"             type="image/png" href="http://{{ site.app.home }}/favicon.ico"> -->
+  <link rel="icon"             type="image/png" href="{{ site.baseurl }}/favicon.ico">
 </head>

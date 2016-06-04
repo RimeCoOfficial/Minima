@@ -1,6 +1,4 @@
-# twbs/bootstrap
-
-> Success! Your configuration has been saved to https://gist.github.com/3b4c484af1c66e009f27c95f9b2287c3 and can be revisited here at http://getbootstrap.com/customize/?id=3b4c484af1c66e009f27c95f9b2287c3 for further customization.
+# Customization
 
 ## Colors
 
@@ -45,3 +43,6 @@
 @pre-color:               @gray-dark
 @pre-border-color:        @pre-bg
 ```
+
+## Type
+@blockquote-font-size:    @font-size-base
