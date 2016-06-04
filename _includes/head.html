@@ -22,17 +22,14 @@ Build infos
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
   <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} &ndash; {{ site.app.title }}
-    {% else %}
-      {{ site.title }} &middot; {{ page.title }} &ndash; {{ site.app.title }}
+    {{ site.title }}
+    {% if page.title != "Home" %}
+       &middot; {{ page.title }}
     {% endif %}
+    &middot; {{ site.github.username }}{{ site.baseurl }}
   </title>
 
-  <meta name="description" content="
-    {% if page.title == "Home" %} {{ site.description | strip_html | truncate: 200, '' }}
-    {% else %}                    {{ page.content     | strip_html | truncate: 200, '' }} {% endif %}
-  ">
+  <meta name="description" content="{{ site.description | strip_html | truncate: 200, '' }}">
   <meta name="keywords" content="">
   <!-- <meta name="thumbnail" content="{{ site.baseurl }}/images/Unitag_QRCode_25432307.png"> -->
 
@@ -66,5 +63,6 @@ Build infos
   <link rel="apple-touch-icon" sizes="152x152"  href="{{ site.baseurl }}/images/icon_152.png">
   <link rel="apple-touch-icon"                  href="{{ site.baseurl }}/images/icon_152.png"> -->
   <!-- <link rel="icon"             type="image/png" href="http://{{ site.app.home }}/favicon.ico"> -->
-  <link rel="icon"             type="image/png" href="{{ site.baseurl }}/favicon.ico">
+  <!-- <link rel="icon"             type="image/png" href="{{ site.baseurl }}/favicon.ico"> -->
+  <link rel="icon"             type="image/png" href="https://github.com/favicon.ico">
 </head>
