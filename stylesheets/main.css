@@ -9,14 +9,14 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 body>footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 80px;
+  height: 100px;
 }
 
 /*
@@ -40,6 +40,10 @@ section.main .container-slim { max-width: 500px; }
 https://github.com/orderedlist/minimal/blob/master/stylesheets/styles.css
 */
 
+body {
+  margin-top: 30px;
+}
+
 img {
   max-width:100%;
 }
@@ -53,4 +57,15 @@ th, td {
   text-align:left;
   padding:5px 10px;
   border-bottom:1px solid #e5e5e5;
+}
+
+h1 {
+  font-size:28px;
+}
+
+/*
+Custom
+*/
+.nav>li>a {
+  color: #333;
 }
