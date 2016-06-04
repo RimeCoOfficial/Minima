@@ -12,7 +12,7 @@
 
 ## Scaffolding
 ```
-@link-color:            #39c
+@link-color:            #DA2E75 // jelly bean flavour
 @link-hover-decoration: none
 ```
 
@@ -45,4 +45,6 @@
 ```
 
 ## Type
+```
 @blockquote-font-size:    @font-size-base
+```
