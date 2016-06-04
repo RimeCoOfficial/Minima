@@ -1,6 +1,6 @@
 # twbs/bootstrap
 
-> Success! Your configuration has been saved to https://gist.github.com/3f45762b3211561b530db02bb02e3cad and can be revisited here at http://getbootstrap.com/customize/?id=3f45762b3211561b530db02bb02e3cad for further customization.
+> Success! Your configuration has been saved to https://gist.github.com/3b4c484af1c66e009f27c95f9b2287c3 and can be revisited here at http://getbootstrap.com/customize/?id=3b4c484af1c66e009f27c95f9b2287c3 for further customization.
 
 ## Colors
 
@@ -34,4 +34,14 @@
 ## Components
 ```
 @component-active-color: @gray-dark
+```
+
+## Code
+```
+@code-color:              @gray-dark
+@code-bg:                 @gray-lighter
+@kbd-bg:                  @gray-dark
+@pre-bg:                  @gray-lighter
+@pre-color:               @gray-dark
+@pre-border-color:        @pre-bg
 ```

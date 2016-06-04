@@ -34,7 +34,7 @@ body {
 @media (max-width: 767px)  { .container { max-width: 500px; } }
 @media (min-width: 768px)  { .container { width:     750px; } }
 
-section.main .container-slim { max-width: 500px; }
+.container-slim { max-width: 500px; }
 
 /*
 https://github.com/orderedlist/minimal/blob/master/stylesheets/styles.css
