@@ -21,10 +21,10 @@ The terms **foobar** (/ˈfuːbɑːr/), or **foo** and others are used as ...
 
 ## Navbar `Default`
 Alphabetically sorted list of pages
-![](./images/Screenshot%202016-06-05%2003.11.28.png)
+![](./images/Screenshot%202016-06-05%2003.30.18.png)
 
 ## Custom Navbar
-![](./images/Screenshot%202016-06-05%2003.11.46.png)
+![](./images/Screenshot%202016-06-05%2003.30.34.png)
 
 For custom list of pages add `-custom` to [_includes/head.html#18](./_includes/head.html#18)
 ```
