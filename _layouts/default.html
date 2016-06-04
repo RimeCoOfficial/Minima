@@ -4,18 +4,20 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
+    
     <section class="main">
-      <div class="container head-padding">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-push-8 col-sm-4">
-            {% include sidebar.html %}
+          <div class="col-sm-4">
+            <header>
+              {% include header.html %}
+            </header>
+
             <br>
+            
+            {% include sidebar.html %}
           </div>
-        
-          <div class="col-sm-pull-4 col-sm-8">
+          <div class="col-sm-8">
             {{ content }}
           </div>
         </div>
@@ -30,6 +32,6 @@
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
 
-    <script rel="text/javascript" src="{{ site.asset_url }}/third-party/plugins/twbs/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script rel="text/javascript" src="./third-party/twbs/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </body>
 </html>

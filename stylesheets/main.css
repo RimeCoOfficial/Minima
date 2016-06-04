@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,700,700italic);
+
+/* Sticky footer styles
+http://getbootstrap.com/examples/sticky-footer/sticky-footer.css
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+body>footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+}
+
+/*
+https://github.com/rimeofficial/static/blob/master/stylesheets/main.css
+*/
+
+body {
+  /*letter-spacing: 0.01em;*/
+  white-space: normal;
+  word-wrap: break-word;
+  /*word-break: break-all;*/
+  /*text-rendering: optimizeLegibility;*/
+}
+
+@media (max-width: 767px)  { .container { max-width: 500px; } }
+@media (min-width: 768px)  { .container { width:     750px; } }
+
+.container-slim { max-width: 500px; }
+
+/*
+https://github.com/orderedlist/minimal/blob/master/stylesheets/styles.css
+*/
+
+body {
+  margin-top: 30px;
+}
+
+img {
+  max-width:100%;
+}
+
+table {
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td {
+  text-align:left;
+  padding:5px 10px;
+  border-bottom:1px solid #e5e5e5;
+}
+
+h1 {
+  font-size:28px;
+}
+
+/*
+Custom
+*/
+.nav>li>a {
+  color: #333;
+}

@@ -2,7 +2,7 @@
 markdown:         kramdown
 highlighter:      rouge
 
-gems:             [jekyll-gist, jekyll-sitemap]
+gems:             [jekyll-gist, jekyll-sitemap, jekyll-seo-tag]
 
 permalink:        pretty
 
@@ -11,14 +11,28 @@ title:            Jelly Bean
 description:      'A slenderize two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> documentation theme that pairs a prominent sidebar with uncomplicated content. Its built on <a href="http://getbootstrap.com" target="_blank">Bootstrap</a> responsive front-end framework.'
 baseurl:          /jelly-bean
 
-asset_url:        https://rimeofficial.github.io/static
+# SEO Advanced usage
+twitter:
+  username:       rimeofficial
+facebook:
+  app_id:         510262139040639
+  # publisher:      1234
+  # admins:         1234
+logo:             http://rimeofficial.github.io/images/logo.png
+# google_site_verification: KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU
+author:           Rime
+image:
+  twitter:        http://rimeofficial.github.io/images/twitter.png
+  facebook:       http://rimeofficial.github.io/images/facebook.png
+  height:         500
+  width:          500
 
 # Custom vars
 version:          1.0.0
 
 # Github vars
 github:
-  username:       rimeofficial
+  username:       RimeOfficial
 
 collections:
   docs:
@@ -32,8 +46,10 @@ defaults:
     values:
       layout:     page
 
-ga:               UA-41643154-1
+google_analytics: UA-41643154-1
 
 app:
-  name:           Rime
-  domain:         rime.co
+  title:          Rime
+  home:           rime.co
+  social:         rime
+  blog:           rimeofficial.tumblr.com

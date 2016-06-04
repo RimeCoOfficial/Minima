@@ -1,16 +1,31 @@
+<br>
 <footer>
   <section>
     <div class="container">
-      <ul class="list-inline pull-right">
-        <li><a class="link-light-inverse" href="http://{{ site.app.domain }}/@rime">Social</a></li>
-        <li><a class="link-light-inverse" href="http://rimeofficial.tumblr.com">Blog</a></li>
-        <li><a class="link-light-inverse" href="{{ site.baseurl }}/sitemap.xml">Sitemap</a></li>
+
+      <ul class="small list-inline pull-right">
+        <!-- <li><a href="http://rimeofficial.github.io/about">About</a></li> -->
+        <!-- <li><a href="http://rimeofficial.github.io/press">Press</a></li> -->
+        <!-- <li><a href="http://rimeofficial.github.io/jobs">Jobs</a></li> -->
+        <!-- <li><a href="http://rimeofficial.github.io/privacy">Privacy</a></li> -->
+        <!-- <li><a href="http://rimeofficial.github.io/terms">Terms</a></li> -->
+        <li><a href="http://rime.co/@{{ site.app.social }}">Social</a></li>
+        <li><a href="http://{{ site.app.blog }}">Blog</a></li>
+        <li><a href="{{ site.baseurl }}/sitemap.xml">Sitemap</a></li>
       </ul>
-      <ul class="list-inline">
-        <li>
-          &copy; {{ site.time | date: '%Y' }} {{ site.app.name }}, All rights reserved.
-        </li>
-      </ul>
+
+      <div class="pull-left">
+        <p>
+          <!-- Project maintained by <strong><a href="http://github.com/{{ site.github.username }}">{{ site.github.username }}</a></strong> -->
+          Project maintained by <a href="http://{{ site.app.home }}">{{ site.app.title }}</a>
+        </p>
+
+        <ul class="list-unstyled">
+          <li class="small text-muted">
+            Hosted on GitHub Pages &mdash; Theme <a href="http://github.com/Rimeofficial/jelly-bean">Jelly Bean</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
 </footer>
@@ -21,6 +36,6 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', '{{ site.ga }}', 'auto');
+  ga('create', '{{ site.google_analytics }}', 'auto');
   ga('send', 'pageview');
 </script>
