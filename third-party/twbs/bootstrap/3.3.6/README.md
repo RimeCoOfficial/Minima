@@ -13,6 +13,7 @@
 ## Scaffolding
 ```
 @link-color:            #DA2E75 // jelly bean flavour
+@link-hover-color:      @gray-light
 @link-hover-decoration: none
 ```
 
