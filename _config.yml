@@ -28,7 +28,7 @@ image:
   width:          500
 
 # Custom vars
-version:          1.0.0
+version:          2.0.0
 
 # Github vars
 github:
