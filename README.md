@@ -26,7 +26,7 @@ Alphabetically sorted list of pages
 ## Custom Navbar
 ![](./images/Screenshot%202016-06-05%2003.30.34.png)
 
-For custom list of pages add `-custom` to [_includes/head.html#L18](./_includes/head.html#L18)
+For custom list of pages add `-custom` to [_includes/header.html#L18](./_includes/header.html#L18)
 ```
 {% include navbar-custom.html %}
 ```
