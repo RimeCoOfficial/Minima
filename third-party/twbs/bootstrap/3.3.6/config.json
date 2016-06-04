@@ -13,8 +13,8 @@
     "@brand-danger": "@gray-darker",
     "@body-bg": "#fff",
     "@text-color": "@gray-dark",
-    "@link-color": "#39c",
-    "@link-hover-color": "darken(@link-color, 15%)",
+    "@link-color": "#DA2E75",
+    "@link-hover-color": "@gray-light",
     "@link-hover-decoration": "none",
     "@font-family-sans-serif": "'Open Sans', sans-serif;",
     "@font-family-serif": "Georgia, \"Times New Roman\", Times, serif",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=6693e7ac8fcf53a779874c3fd9cedb30"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=a79e29df2d2c45e8a3e39e257047037b"
 }
