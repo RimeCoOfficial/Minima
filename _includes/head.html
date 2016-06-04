@@ -21,17 +21,8 @@ Build infos
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-  <title>
-    {{ site.title }}
-    {% if page.title != "Home" %}
-       &middot; {{ page.title }}
-    {% endif %}
-    &middot; {{ site.github.username }}{{ site.baseurl }}
-  </title>
-
-  <meta name="description" content="{{ site.description | strip_html | truncate: 200, '' }}">
-  <meta name="keywords" content="">
-  <!-- <meta name="thumbnail" content="{{ site.baseurl }}/images/Unitag_QRCode_25432307.png"> -->
+  <!-- https://github.com/jekyll/jekyll-seo-tag -->
+  {% seo %}
 
   <!-- CSS -->
 
