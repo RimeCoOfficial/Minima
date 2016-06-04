@@ -13,10 +13,10 @@ The terms **foobar** (/ˈfuːbɑːr/), or **foo** and others are used as ...
 
 ## Sidebar `Default`
 Alphabetically sorted list of pages
-![](./images/Screenshot%202016-05-25%2019.07.48.png)
+![](./images/Screenshot%022016-06-04%0218.48.28.png)
 
 ## Custom Sidebar
-![](./images/Screenshot%202016-05-25%2019.08.20.png)
+![](./images/Screenshot%022016-06-04%0218.50.20)
 
 For custom list of pages add `-custom` to `_layouts/default.html`
 ```
