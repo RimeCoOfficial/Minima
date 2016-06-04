@@ -16,7 +16,7 @@ Alphabetically sorted list of pages
 ![](./images/Screenshot%202016-06-04%2018.48.28.png)
 
 ## Custom Sidebar
-![](./images/Screenshot%202016-06-04%2018.50.20)
+![](./images/Screenshot%202016-06-04%2018.50.20.png)
 
 For custom list of pages add `-custom` to `_layouts/default.html`
 ```
