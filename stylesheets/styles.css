@@ -69,3 +69,12 @@ Custom
 .nav>li>a {
   color: #333;
 }
+
+.btn-default {
+  border-color: #eee;
+}
+
+.btn-default:hover {
+  background-color: #eee;
+  border-color: #eee;
+}
