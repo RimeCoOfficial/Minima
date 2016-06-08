@@ -49,7 +49,7 @@ defaults:
 google_analytics: UA-41643154-1
 
 app:
-  title:          Rime
-  home:           rime.co
+  name:           Rime
+  www:            rime.co
   social:         rime
   blog:           rimeofficial.tumblr.com
