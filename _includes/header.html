@@ -48,9 +48,34 @@
     </div> --><!-- /.navbar-collapse -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="{{ site.baseurl }}/">{{ site.title }} <span class="sr-only">(current)</span></a></li>
-        <li><a href="./one">One</a></li>
-        <li><a href="./two">Two</a></li>
+        <li class="{% if page.url == '/' %}active{% endif %}">
+          <a href="{{ site.baseurl }}/">
+            {{ site.title }}
+            {% if page.url == '/' %}<span class="sr-only">(current)</span>{% endif %}
+          </a>
+        </li>
+
+        {% for link in site.data.header %}
+
+          {% assign attribute = '' %}
+          {% assign scheme1 = link.url | slice: 0, 5 %}
+          {% assign scheme2 = link.url | slice: 0, 6 %}
+          {% if scheme1 == 'http:' or scheme2 == 'https:' %}
+            {% assign attribute = 'target="_blank"' %}
+          {% endif %}
+
+          {% assign link_url = link.url | prepend:"/" %}
+
+          {% if link_url == page.url %}
+            {% assign c = "active" %}
+          {% else %}
+            {% assign c = "" %}
+          {% endif %}
+
+          <li class="{{ c }}">
+            <a href="{{ link.url }}" {{ attribute }}>{{ link.title %}}</a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
   </div><!-- /.container-fluid -->

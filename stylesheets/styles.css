@@ -60,6 +60,10 @@ body {
 
 .navbar-default .navbar-nav>li>a { text-transform: uppercase; }
 
+footer .list-inline>.active>a, footer .list-inline>.active>a:hover, footer .list-inline>.active>a:focus {
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+
 .container-slim { max-width: 500px; }
 
 /*

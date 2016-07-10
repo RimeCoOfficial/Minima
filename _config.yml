@@ -50,6 +50,4 @@ google_analytics: UA-41643154-1
 
 app:
   name:           Rime
-  www:            rime.co
-  social:         rime
-  blog:           rimeofficial.tumblr.com
+  url:            http://rime.co
