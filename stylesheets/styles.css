@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Lora:400,700,700italic,400italic);
 
 
 /* Sticky footer styles
@@ -64,7 +63,12 @@ footer .list-inline>.active>a, footer .list-inline>.active>a:hover, footer .list
   border-bottom: 1px solid rgba(0,0,0,0.5);
 }
 
-.container-slim { max-width: 500px; }
+@media (min-width: 768px) {
+  .navbar-nav>li>a {
+    padding-top: 35px;
+  }
+}
+.navbar-toggle { margin-top: 15px; }
 
 /*
 https://github.com/orderedlist/minimal/blob/master/stylesheets/styles.css
