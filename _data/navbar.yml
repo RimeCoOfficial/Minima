@@ -1,8 +1,4 @@
-- title: Getting Started
-  pages:
-  - one
-  - two
-
-- title: Your Content
-  pages:
-  - three
+- nav:
+  - index: Home
+  - one: One
+  - two: Two

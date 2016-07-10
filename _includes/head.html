@@ -21,8 +21,14 @@ Build infos
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-  <!-- https://github.com/jekyll/jekyll-seo-tag -->
-  {% seo %}
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.app.name }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.app.name }}
+    {% endif %}
+  </title>
+  
 
   <!-- CSS -->
 

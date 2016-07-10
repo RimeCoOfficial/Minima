@@ -2,7 +2,7 @@
 markdown:         kramdown
 highlighter:      rouge
 
-gems:             [jekyll-gist, jekyll-sitemap, jekyll-seo-tag]
+gems:             [jekyll-sitemap]
 
 permalink:        pretty
 
@@ -44,7 +44,7 @@ defaults:
       path:       ''
       type:       docs
     values:
-      layout:     page
+      layout:     default
 
 google_analytics: UA-41643154-1
 
