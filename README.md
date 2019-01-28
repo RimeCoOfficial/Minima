@@ -1,8 +1,6 @@
 # Jelly Bean
 A slenderize two-column [Jekyll](http://jekyllrb.com) documentation theme that pairs a prominent navbar with uncomplicated content. Its built on [Bootstrap](http://getbootstrap.com) responsive front-end framework.
 
-## Minimal Theme `v2.0.0`
-
 [Demo the Theme](http://rimeofficial.github.com/jelly-bean/)
 
 This is the raw HTML and styles that are used for the *minimal* theme on [GitHub Pages](http://pages.github.com/).
@@ -42,13 +40,6 @@ and configure `_data/navbar.yml`
   pages:
   - three
 ```
-
-## Development
-
-Jelly Bean has two branches, but only one is used for active development.
-
-- `master` for development.  **All pull requests should be submitted against `master`.**
-- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
 
 ## License
 
