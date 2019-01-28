@@ -7,7 +7,7 @@ gems:             [jekyll-sitemap]
 permalink:        pretty
 
 # Setup
-title:            Minimal
+title:            Jelly Bean
 description:      'A Theme for GitHub Pages'
 baseurl:          /jelly-bean
 
