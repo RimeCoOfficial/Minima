@@ -12,7 +12,7 @@
         <!-- <li><a href="http://rimeofficial.github.io/privacy">Privacy</a></li> -->
         <!-- <li><a href="http://rimeofficial.github.io/terms">Terms</a></li> -->
 
-<<<<<<< HEAD
+
         {% for link in site.data.footer %}
 
           {% assign attribute = '' %}
@@ -23,13 +23,6 @@
           {% endif %}
 
           {% assign link_url = link.url | prepend:"/" %}
-=======
-      <div class="pull-left">
-        <p>
-          <!-- Project maintained by <strong><a href="http://github.com/{{ site.github.username }}">{{ site.github.username }}</a></strong> -->
-          Project maintained by <a href="http://{{ site.app.home }}">{{ site.app.title }}</a>
-        </p>
->>>>>>> parent of 430e939... Merge branch 'master' into gh-pages
 
           {% if link_url == page.url %}
             {% assign c = "active" %}
