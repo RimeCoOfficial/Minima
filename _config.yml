@@ -49,5 +49,12 @@ defaults:
 google_analytics: UA-41643154-1
 
 app:
+<<<<<<< HEAD
   name:           Rime
   url:            http://rime.co
+=======
+  title:          Rime
+  home:           rime.co
+  social:         rime
+  blog:           rimeofficial.tumblr.com
+>>>>>>> parent of 430e939... Merge branch 'master' into gh-pages
