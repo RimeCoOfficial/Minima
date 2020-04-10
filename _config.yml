@@ -9,7 +9,7 @@ permalink:        pretty
 # Setup
 title:            Jelly Bean
 description:      'A Theme for GitHub Pages'
-baseurl:          /jelly-bean
+baseurl:          /Jelly-Bean
 
 # SEO Advanced usage
 twitter:
@@ -32,7 +32,7 @@ version:          2.0.0
 
 # Github vars
 github:
-  username:       RimeOfficial
+  username:       RhymeTek
 
 collections:
   docs:
