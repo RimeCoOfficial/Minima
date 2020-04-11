@@ -21,14 +21,8 @@ Build infos
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.app.name }}
-    {% else %}
-      {{ page.title }} &middot; {{ site.app.name }}
-    {% endif %}
-  </title>
-  
+  <!-- https://github.com/jekyll/jekyll-seo-tag -->
+  {% seo %}
 
   <!-- CSS -->
 
@@ -60,8 +54,8 @@ Build infos
   <link rel="apple-touch-icon" sizes="120x120"  href="{{ site.baseurl }}/images/icon_120.png">
   <link rel="apple-touch-icon" sizes="152x152"  href="{{ site.baseurl }}/images/icon_152.png">
   <link rel="apple-touch-icon"                  href="{{ site.baseurl }}/images/icon_152.png"> -->
-  <!-- <link rel="icon"             type="image/png" href="{{ site.app.url }}/favicon.ico"> -->
+  <!-- <link rel="icon"             type="image/png" href="http://{{ site.app.www }}/favicon.ico"> -->
   <!-- <link rel="icon"             type="image/png" href="{{ site.baseurl }}/favicon.ico"> -->
-  <!-- <link rel="icon"             type="image/png" href="https://github.com/favicon.ico"> -->
+  <link rel="icon"             type="image/png" href="https://github.com/favicon.ico">
   <link rel="icon"             type="image/png" href="https://status.github.com/images/status-icon-red.png">
 </head>

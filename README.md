@@ -1,4 +1,4 @@
-# Jelly Bean
+# Minima
 A slenderize two-column [Jekyll](http://jekyllrb.com) documentation theme that pairs a prominent navbar with uncomplicated content. Its built on [Bootstrap](http://getbootstrap.com) responsive front-end framework.
 
 [Demo the Theme](http://rimeofficial.github.com/jelly-bean/)
@@ -25,11 +25,13 @@ Alphabetically sorted list of pages
 ![](./images/Screenshot%202016-06-05%2014.54.58.png)
 
 For custom list of pages add `-custom` to [_includes/header.html#L27](./_includes/header.html#L27)
+
 ```
 {% include navbar-custom.html %}
 ```
 
 and configure `_data/navbar.yml`
+
 ```
 - title: Getting Started
   pages:

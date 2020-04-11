@@ -1,8 +1,7 @@
 ---
-title: One
+layout: page
+title: Example
 ---
-
-## Example content
 
 Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 
@@ -81,7 +80,7 @@ Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo r
 
 Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
 
-![placeholder](http://placehold.it/800x400 "Large example image")
+![placeholder](https://via.placeholder.com/800x600/DA2E75/ffffff "Large example image C/O https://placeholder.com/")
 
 ### Tables
 

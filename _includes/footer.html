@@ -2,40 +2,31 @@
 <footer>
   <section>
     <div class="container">
-      <hr>
-      <ul class="list-inline">
-        <li><a href="{{ site.app.url }}">&copy; {{ 'now' | date: "%Y" }} {{ site.app.name }}</a></li>
 
+      <ul class="small list-inline pull-right">
         <!-- <li><a href="http://rimeofficial.github.io/about">About</a></li> -->
         <!-- <li><a href="http://rimeofficial.github.io/press">Press</a></li> -->
         <!-- <li><a href="http://rimeofficial.github.io/jobs">Jobs</a></li> -->
         <!-- <li><a href="http://rimeofficial.github.io/privacy">Privacy</a></li> -->
         <!-- <li><a href="http://rimeofficial.github.io/terms">Terms</a></li> -->
-
-        {% for link in site.data.footer %}
-
-          {% assign attribute = '' %}
-          {% assign scheme1 = link.url | slice: 0, 5 %}
-          {% assign scheme2 = link.url | slice: 0, 6 %}
-          {% if scheme1 == 'http:' or scheme2 == 'https:' %}
-            {% assign attribute = 'target="_blank"' %}
-          {% endif %}
-
-          {% assign link_url = link.url | prepend:"/" %}
-
-          {% if link_url == page.url %}
-            {% assign c = "active" %}
-          {% else %}
-            {% assign c = "" %}
-          {% endif %}
-
-          <li class="{{ c }}">
-            <a href="{{ link.url }}" {{ attribute }}>{{ link.title %}}</a>
-          </li>
-        {% endfor %}
-
-        <!-- <li><a href="{{ site.baseurl }}/sitemap.xml">Sitemap</a></li> -->
+        <li><a href="http://rime.co/@{{ site.app.social }}">Social</a></li>
+        <li><a href="http://{{ site.app.blog }}">Blog</a></li>
+        <li><a href="{{ site.baseurl }}/sitemap.xml">Sitemap</a></li>
       </ul>
+
+      <div class="pull-left">
+        <p>
+          <!-- Project maintained by <strong><a href="http://github.com/{{ site.github.username }}">{{ site.github.username }}</a></strong> -->
+          Project maintained by <a href="http://{{ site.app.www }}">{{ site.app.name }}</a>
+        </p>
+
+        <ul class="list-unstyled">
+          <li class="small text-muted">
+            Hosted on GitHub Pages &mdash; Theme <a href="http://github.com/Rimeofficial/jelly-bean">Jelly Bean</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </section>
 </footer>
 

@@ -5,12 +5,15 @@
 
   <body>
     
-    {% include header.html %}
-
     <section class="main">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-sm-4">
+            <header>
+              {% include header.html %}
+            </header>
+          </div>
+          <div class="col-sm-8">
             {{ content }}
           </div>
         </div>

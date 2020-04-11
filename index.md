@@ -1,189 +1,181 @@
 ---
 layout: default
-title: Home
 ---
 
-<h1>{{ site.title }}</h1>
+GitHub Flavored Markdown
+================================
 
-<p class="lead text-muted">
-  {{ site.description }}
-</p>
+*View the [source of this content](http://github.github.com/github-flavored-markdown/sample_content.html).*
 
-<br>
+Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:
 
-<div class="row">
-  <div class="page col-md-8 col-md-push-2 col-sm-10 col-sm-push-1 col-xs-12">
+Roses are red
+Violets are blue
 
-        <h1>GitHub Flavored Markdown</h1>
+The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:
 
-        <p><em>View the <a href="http://github.github.com/github-flavored-markdown/sample_content.html">source of this content</a>.</em></p>
+Roses are red  
+Violets are blue
 
-        <p>Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:</p>
+Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.
 
-        <p>Roses are red<br>
-        Violets are blue</p>
+A bit of the GitHub spice
+-------------------------
 
-        <p>The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:</p>
+In addition to the changes in the previous section, certain references are auto-linked:
 
-        <p>Roses are red<br><br>
-        Violets are blue</p>
+<ul>
+  <li>SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
+  <li>User@SHA ref: <a href="https://github.com/mojombo/product/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo@<tt>be6a8cc</tt></a></li>
+  <li>User/Project@SHA: <a href="https://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo/god@<tt>be6a8cc</tt></a></li>
+  <li>#Num: <a href="https://github.com/github/product/issues/1" class="issue-link" title="Baseline: What is up in the air right now?">#1</a></li>
+  <li>User/#Num: mojombo#1</li>
+  <li>User/Project#Num: <a href="https://github.com/mojombo/god/issues/1" class="issue-link" title="The server is not available (or you do not have permissions to access it)">mojombo/god#1</a></li>
+</ul>
 
-        <p>Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.</p>
+These are dangerous goodies though, and we need to make sure email addresses don't get mangled:
 
-        <h2>A bit of the GitHub spice</h2>
+My email address is tom@github.com.
 
-        <p>In addition to the changes in the previous section, certain references are auto-linked:</p>
+Embed Gist
+----------
 
-        <ul>
-          <li>SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
-          <li>User@SHA ref: <a href="https://github.com/mojombo/product/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo@<tt>be6a8cc</tt></a></li>
-          <li>User/Project@SHA: <a href="https://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo/god@<tt>be6a8cc</tt></a></li>
-          <li>#Num: <a href="https://github.com/github/product/issues/1" class="issue-link" title="Baseline: What is up in the air right now?">#1</a></li>
-          <li>User/#Num: mojombo#1</li>
-          <li>User/Project#Num: <a href="https://github.com/mojombo/god/issues/1" class="issue-link" title="The server is not available (or you do not have permissions to access it)">mojombo/god#1</a></li>
-        </ul>
+{% gist c08ee0f2726fd0e3909d %}
 
-        <p>These are dangerous goodies though, and we need to make sure email addresses don't get mangled:</p>
 
-        <p>My email addy is <a href="mailto:tom@github.com">tom@github.com</a>.</p>
+Math is hard, let's go shopping
+-------------------------------
 
-        <h2>Math is hard, let's go shopping</h2>
+In first grade I learned that 5 > 3 and 2 < 7. Maybe some arrows. 1 -> 2 -> 3. 9 <- 8 <- 7.
 
-        <p>In first grade I learned that 5 &gt; 3 and 2 &lt; 7. Maybe some arrows. 1 -&gt; 2 -&gt; 3. 9 &lt;- 8 &lt;- 7.</p>
+Triangles man! a^2 + b^2 = c^2
 
-        <p>Triangles man! a^2 + b^2 = c^2</p>
+We all like making lists
+------------------------
 
-        <h2>We all like making lists</h2>
+The above header should be an H2 tag. Now, for a list of fruits:
 
-        <p>The above header should be an H2 tag. Now, for a list of fruits:</p>
+* Red Apples
+* Purple Grapes
+* Green Kiwifruits
 
-        <ul>
-          <li>Red Apples</li>
-          <li>Purple Grapes</li>
-          <li>Green Kiwifruits</li>
-        </ul>
+Let's get crazy:
 
-        <p>Let's get crazy:</p>
+1.  This is a list item with two paragraphs. Lorem ipsum dolor
+    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+    mi posuere lectus.
 
-        <ol>
-          <li>
-            <p>This is a list item with two paragraphs. Lorem ipsum dolor<br>
-            sit amet, consectetuer adipiscing elit. Aliquam hendrerit<br>
-            mi posuere lectus.</p>
+    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+    sit amet velit.
 
-            <p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br>
-            vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br>
-            sit amet velit.</p>
-          </li>
-          <li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
-        </ol>
+2.  Suspendisse id sem consectetuer libero luctus adipiscing.
 
-        <p>What about some code <strong>in</strong> a list? That's insane, right?</p>
+What about some code **in** a list? That's insane, right?
 
-        <ol>
-          <li>
-            <p>In Ruby you can map like this:</p>
+1. In Ruby you can map like this:
 
-            <pre><code>['a', 'b'].map { |x| x.uppercase }</code></pre>
-          </li>
-          <li>
-            <p>In Rails, you can do a shortcut:</p>
+        ['a', 'b'].map { |x| x.uppercase }
 
-            <pre><code>['a', 'b'].map(&amp;:uppercase)</code></pre>
-          </li>
-        </ol>
+2. In Rails, you can do a shortcut:
 
-        <p>Some people seem to like definition lists</p>
+        ['a', 'b'].map(&:uppercase)
 
-        <dl>
-          <dt>Lower cost</dt>
-          <dd>The new version of this product costs significantly less than the previous one!</dd>
-          <dt>Easier to use</dt>
-          <dd>We've changed the product so that it's much easier to use!</dd>
-        </dl>
+Some people seem to like definition lists
 
-        <h2>I am a robot</h2>
+<dl>
+  <dt>Lower cost</dt>
+  <dd>The new version of this product costs significantly less than the previous one!</dd>
+  <dt>Easier to use</dt>
+  <dd>We've changed the product so that it's much easier to use!</dd>
+</dl>
 
-        <p>Maybe you want to print <code>robot</code> to the console 1000 times. Why not?</p>
+I am a robot
+------------
 
-        <pre><code>def robot_invasion
-  puts("robot " * 1000)
-end
-</code></pre>
+Maybe you want to print `robot` to the console 1000 times. Why not?
 
-        <p>You see, that was formatted as code because it's been indented by four spaces.</p>
+    def robot_invasion
+      puts("robot " * 1000)
+    end
 
-        <p>How about we throw some angle braces and ampersands in there?</p>
+You see, that was formatted as code because it's been indented by four spaces.
 
-        <pre><code>&lt;div class="footer"&gt;
-    &amp;copy; 2004 Foo Corporation
-&lt;/div&gt;
-</code></pre>
+How about we throw some angle braces and ampersands in there?
 
-        <h2>Set in stone</h2>
+    <div class="footer">
+        &copy; 2004 Foo Corporation
+    </div>
 
-        <p>Preformatted blocks are useful for ASCII art:</p>
+Set in stone
+------------
 
-        <pre>             ,-.
-    ,     ,-.   ,-.
-   / \   (   )-(   )
-   \ |  ,.&gt;-(   )-&lt;
-    \|,' (   )-(   )
-     Y ___`-'   `-'
-     |/__/   `-'
-     |
-     |
-     |    -hrr-
-  ___|_____________
+Preformatted blocks are useful for ASCII art:
+
+<pre>
+
+         _ .....Hit me I dare you......ya ya ya....
+        / \
+    __/    \_
+   /_  -  \  \                      ,:',:`,:' ........Oh yeah, yes you...HA!
+  / / /     \ \                  __||_||_||_||___
+ |    |     / |             ____[""""""""""""""""]___
+ /   /     \   \            \ " '''''''''''''''''''' \
+ ~~^~^~HZ~~^~^~^~~^~^~^~~jgs~^~^~^^~^~^~^~^~^~^~^~~^~^~^~^~~^~^
+
+                  _
+                 / \ ......See, I told you.....
+             __/    \_
+            /_  -  \  \                   ____  ..... Oh, heck...gulp..glub..
+           / / /     \ \            ,' ._|    \
+          |   |     /  |            :__: :    |
+         /   /      \   \            --: :    |\o
+~~^~~^~~~~^^~^~^~^~^~^~~~^~~^~HZ~~^~^~~~^~^~^^~~~~^~^~^~~^^^~^^^
+
+-- Howard Zivotofsky (HZ) https://ascii.co.uk/art/titanic
+
 </pre>
 
-        <h2>Playing the blame game</h2>
+Playing the blame game
+----------------------
 
-        <p>If you need to blame someone, the best way to do so is by quoting them:</p>
+If you need to blame someone, the best way to do so is by quoting them:
 
-        <blockquote>
-        <p>I, at any rate, am convinced that He does not throw dice.</p>
-        </blockquote>
+> I, at any rate, am convinced that He does not throw dice.
 
-        <p>Or perhaps someone a little less eloquent:</p>
+Or perhaps someone a little less eloquent:
 
-        <blockquote>
-        <p>I wish you'd have given me this written question ahead of time so I<br>
-        could plan for it... I'm sure something will pop into my head here in<br>
-        the midst of this press conference, with all the pressure of trying to<br>
-        come up with answer, but it hadn't yet...</p>
+> I wish you'd have given me this written question ahead of time so I
+> could plan for it... I'm sure something will pop into my head here in
+> the midst of this press conference, with all the pressure of trying to
+> come up with answer, but it hadn't yet...
+>
+> I don't want to sound like
+> I have made no mistakes. I'm confident I have. I just haven't - you
+> just put me under the spot here, and maybe I'm not as quick on my feet
+> as I should be in coming up with one.
 
-        <p>I don't want to sound like<br>
-        I have made no mistakes. I'm confident I have. I just haven't - you<br>
-        just put me under the spot here, and maybe I'm not as quick on my feet<br>
-        as I should be in coming up with one.</p>
-        </blockquote>
+Table for two
+-------------
 
-        <h2>Table for two</h2>
+<table>
+  <tr>
+    <th>ID</th><th>Name</th><th>Rank</th>
+  </tr>
+  <tr>
+    <td>1</td><td>Tom Preston-Werner</td><td>Awesome</td>
+  </tr>
+  <tr>
+    <td>2</td><td>Albert Einstein</td><td>Nearly as awesome</td>
+  </tr>
+</table>
 
-        <table>
-          <tbody>
-        <tr>
-            <th>ID</th>
-        <th>Name</th>
-        <th>Rank</th>
-          </tr>
-          <tr>
-            <td>1</td>
-        <td>Tom Preston-Werner</td>
-        <td>Awesome</td>
-          </tr>
-          <tr>
-            <td>2</td>
-        <td>Albert Einstein</td>
-        <td>Nearly as awesome</td>
-          </tr>
-        </tbody>
-        </table>
+Crazy linking action
+--------------------
 
-        <h2>Crazy linking action</h2>
+I get 10 times more traffic from [Google] [1] than from
+[Yahoo] [2] or [MSN] [3].
 
-        <p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from<br>
-        <a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
-  </div>
-</div>
+  [1]: http://google.com/        "Google"
+  [2]: http://search.yahoo.com/  "Yahoo Search"
+  [3]: http://search.msn.com/    "MSN Search"

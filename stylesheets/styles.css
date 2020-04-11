@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,700,700italic);
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,700,700italic);
 
 /* Sticky footer styles
 http://getbootstrap.com/examples/sticky-footer/sticky-footer.css
@@ -10,14 +9,14 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 body>footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 150px;
+  height: 100px;
 }
 
 /*
@@ -32,43 +31,10 @@ body {
   /*text-rendering: optimizeLegibility;*/
 }
 
-/*@media (max-width: 767px)  { .container { max-width: 500px; } }*/
-/*@media (min-width: 768px)  { .container { width:    1020px; } }*/
-/*@media (max-width:1024px)  { .container { width:    1020px; } }*/
+@media (max-width: 767px)  { .container { max-width: 500px; } }
+@media (min-width: 768px)  { .container { width:     750px; } }
 
-/*@media (min-width:  768px) { .container { width:  750px; } }
-@media (min-width:  992px) { .container { width:  970px; } }*/
-@media (min-width: 1200px) { .container { width: 1020px; } }
-
-.navbar-default {
-    background-color: transparent;
-    border-color: transparent;
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    /*color: #555;*/
-    background-color: transparent;
-    /*text-decoration: underline;*/
-    border-bottom: 1px solid rgba(0,0,0,0.5);
-}
-
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
-    color: #555;
-    background-color: transparent;
-}
-
-.navbar-default .navbar-nav>li>a { text-transform: uppercase; }
-
-footer .list-inline>.active>a, footer .list-inline>.active>a:hover, footer .list-inline>.active>a:focus {
-  border-bottom: 1px solid rgba(0,0,0,0.5);
-}
-
-@media (min-width: 768px) {
-  .navbar-nav>li>a {
-    padding-top: 35px;
-  }
-}
-.navbar-toggle { margin-top: 15px; }
+.container-slim { max-width: 500px; }
 
 /*
 https://github.com/orderedlist/minimal/blob/master/stylesheets/styles.css
@@ -76,6 +42,10 @@ https://github.com/orderedlist/minimal/blob/master/stylesheets/styles.css
 
 body {
   margin-top: 30px;
+}
+
+img {
+  max-width:100%;
 }
 
 table {
@@ -90,19 +60,7 @@ th, td {
 }
 
 h1 {
-  font-size: 28px;
-}
-
-.page h1 { font-size: 36px; }
-.page h2 { margin-top: 30px; font-size: 28px; color: rgba(0,0,0,.44); font-weight: 300; }
-.page { font-size: 21px; font-weight: 300; }
-.page blockquote { font-size: 28px; font-style: italic; color: rgba(0,0,0,.44); }
-
-@media (max-width:  767px) {
-  .page h1 { font-size: 28px; }
-  .page h2 { margin-top: 30px; font-size: 24px; color: rgba(0,0,0,.44); font-weight: 300; }
-  .page { font-size: 18px; font-weight: 300; }
-  .page blockquote { font-size: 24px; font-style: italic; color: rgba(0,0,0,.44); }
+  font-size:28px;
 }
 
 /*
@@ -119,13 +77,4 @@ Custom
 .btn-default:hover {
   background-color: #eee;
   border-color: #eee;
-}
-
-footer .list-inline { padding-top: 25px; }
-footer .list-inline a {
-    display: block;
-    text-transform: uppercase;
-    font-weight: 100;
-    color: #a5a7aa;
-    line-height: 2;
 }

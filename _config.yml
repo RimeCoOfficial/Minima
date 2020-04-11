@@ -2,14 +2,15 @@
 markdown:         kramdown
 highlighter:      rouge
 
-gems:             [jekyll-sitemap, jekyll-gist]
+gems:             [jekyll-sitemap, jekyll-gist, jekyll-seo-tag]
+plugins:          [jekyll-gist, jekyll-seo-tag]
 
 permalink:        pretty
 
 # Setup
-title:            Jelly Bean
+title:            Minima
 description:      'A Theme for GitHub Pages'
-baseurl:          /Jelly-Bean
+baseurl:          /Minima
 
 # SEO Advanced usage
 twitter:
@@ -20,7 +21,7 @@ facebook:
   # admins:         1234
 logo:             https://avatars1.githubusercontent.com/u/8429423?v=3&s=500
 # google_site_verification: KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU
-author:           Rime
+author:           Rhyme Tek
 image:
   twitter:        https://avatars1.githubusercontent.com/u/8429423?v=3&s=500
   facebook:       https://avatars1.githubusercontent.com/u/8429423?v=3&s=500
@@ -28,7 +29,7 @@ image:
   width:          500
 
 # Custom vars
-version:          2.0.1
+version:          2.0.2
 
 # Github vars
 github:
@@ -38,6 +39,10 @@ collections:
   docs:
     output:       true
     permalink:    /:path
+    order:
+      - Jekyll.md
+      - Example.md
+      - About.md
 
 defaults:
   - scope:
@@ -49,6 +54,6 @@ defaults:
 google_analytics: UA-41643154-1
 
 app:
-  name:           Rime
+  name:           Rhyme Tek
   url:            https://rime.co
   blog:           rimeofficial.tumblr.com
