@@ -17,7 +17,8 @@ baseurl:          /Minima
 color:            DA2E75
 navbar:           Default
 
-# SEO Advanced usage
+# SEO jekyll-seo-tag
+# https://github.com/jekyll/jekyll-seo-tag
 twitter:
   username:       rimeofficial
   card:           summary
@@ -25,12 +26,11 @@ facebook:
   app_id:         510262139040639
   publisher:      297545803726080
   admins:         suvozit
-logo:             https://avatars1.githubusercontent.com/u/8429423?v=3&s=500
-# google_site_verification: KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU
+logo:             /images/logo.png
 author:           Rhyme Tek.
 image:
-  twitter:        https://avatars1.githubusercontent.com/u/8429423?v=3&s=500
-  facebook:       https://avatars1.githubusercontent.com/u/8429423?v=3&s=500
+  twitter:        /images/logo.png
+  facebook:       /images/logo.png
   height:         500
   width:          500
 social:
@@ -42,12 +42,12 @@ social:
     - https://github.com/RhymeTek
     - https://keybase.io/RhymeTek
 webmaster_verifications:
-  google: 1234
+  google: KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU
   bing: 1234
   alexa: 1234
   yandex: 1234
   baidu: 1234
-lang: en_US
+lang: en_UK
 
 # Custom vars
 version:          2.0.2
