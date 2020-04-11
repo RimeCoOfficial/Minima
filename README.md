@@ -17,7 +17,7 @@ title: Foobar
 The terms **foobar** (/ˈfuːbɑːr/), or **foo** and others are used as ...
 ```
 
-## Navbar `Default`
+## Default Navbar
 Alphabetically sorted list of pages
 ![](./images/Screenshot%202016-06-05%2014.54.41.png)
 

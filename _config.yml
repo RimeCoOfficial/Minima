@@ -2,7 +2,9 @@
 markdown:         kramdown
 highlighter:      rouge
 
-gems:             [jekyll-sitemap]
+gems:             [jekyll-sitemap, jekyll-gist, jekyll-seo-tag]
+
+plugins:
 
 permalink:        pretty
 
@@ -28,7 +30,7 @@ image:
   width:          500
 
 # Custom vars
-version:          2.0.0
+version:          2.0.1
 
 # Github vars
 github:
@@ -50,4 +52,4 @@ google_analytics: UA-41643154-1
 
 app:
   name:           Rime
-  url:            http://rime.co
+  url:            https://rime.co
