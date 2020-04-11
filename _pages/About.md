@@ -8,7 +8,7 @@ A [Bootstrap](http://getbootstrap.com) responsive two-column [Jekyll](http://jek
 
 ### Built on Jekyll
 
-* Complete Jekyll setup included (layouts, config, [404]({{ site.baseurl }}/404), [Sitemap]({{ site.baseurl }}/sitemap.xml), [robots]({{ site.baseurl }}/robots.txt), [build]({{ site.baseurl }}/site.github.json) and [example pages]({{ site.baseurl }}/example))
+* Complete Jekyll setup included (layouts, config, [404]({{ site.baseurl }}/404), [Sitemap]({{ site.baseurl }}/sitemap.xml), [robots]({{ site.baseurl }}/robots.txt), [build]({{ site.baseurl }}/site.github.json) and [example pages]({{ site.baseurl }}/Example))
 * Mobile friendly design and development
 * Easily scalable text and component sizing with `rem` units in the CSS
 * Support for a wide gamut of HTML elements
