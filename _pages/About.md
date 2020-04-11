@@ -23,8 +23,8 @@ A [Bootstrap](http://getbootstrap.com) responsive two-column [Jekyll](http://jek
 In addition to the features of Jekyll, Minima adds the following:
 
 * Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* [Optional color schemes](https://github.com/{{ site.github.username }}{{ site.baseurl }}#custom-navbar), available via [_config.yml](./_config.yml#L17)
-* Two orientations for sidebar, default (alphabetical order) and [custom](https://github.com/RhymeTek/Minima#custom-layout), available via [_config.yml](./_config.yml#L18) and configure `_data/navbar.yml`
+* Optional color schemes, available via `_config.yml#L17` and default is `DA2E75`
+* Two orientations for sidebar, `Default` (alphabetical order) and [`Custom`](https://github.com/{{ site.github.username }}{{ site.baseurl }}#custom-navbar), available via `_config.yml#L18` and configure `_data/navbar.yml`
 
 ### Browser support
 
