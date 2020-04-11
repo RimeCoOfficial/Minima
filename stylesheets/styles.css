@@ -9,7 +9,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 100px;
+  padding-bottom: 50px;
 }
 body>footer {
   position: absolute;
@@ -41,7 +41,7 @@ https://github.com/orderedlist/minimal/blob/master/stylesheets/styles.css
 */
 
 body {
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 img {
