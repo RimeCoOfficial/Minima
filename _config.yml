@@ -12,7 +12,7 @@ permalink:        pretty
 # Setup
 title:            Minima
 tagline:          'A Bootstrap theme for GitHub Pages'
-description:      'A Bootstrap theme for GitHub Pages'
+description:      'A Bootstrap responsive two-column Jekyll documentation theme that pairs a prominent navbar with uncomplicated content.'
 baseurl:          /Minima
 color:            DA2E75
 navbar:           Default
