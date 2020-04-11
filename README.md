@@ -24,7 +24,7 @@ Alphabetically sorted list of pages
 ## `Custom` Navbar
 ![](./images/Screenshot%202016-06-05%2014.54.58.png)
 
-For custom list of pages change `Default` to `Custom` [_config.yml#L15](./_config.yml#L15) and configure `_data/navbar.yml`
+For custom list of pages change `Default` to `Custom` [_config.yml#L17](./_config.yml#L17) and configure `_data/navbar.yml`
 
 ```
 - title: Getting Started
