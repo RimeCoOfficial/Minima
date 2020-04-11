@@ -8,7 +8,7 @@ A [Bootstrap](http://getbootstrap.com) responsive two-column [Jekyll](http://jek
 
 ### Built on Jekyll
 
-* Complete Jekyll setup included (layouts, config, [404]({{ site.baseurl }}/404), [Sitemap]({{ site.baseurl }}/sitemap.xml), [robots.txt]({{ site.baseurl }}/robots.txt), [site.github.json]({{ site.baseurl }}/site.github.json) and [example pages]({{ site.baseurl }}/example))
+* Complete Jekyll setup included (layouts, config, [404]({{ site.baseurl }}/404), [Sitemap]({{ site.baseurl }}/sitemap.xml), [robots]({{ site.baseurl }}/robots.txt), [build]({{ site.baseurl }}/site.github.json) and [example pages]({{ site.baseurl }}/example))
 * Mobile friendly design and development
 * Easily scalable text and component sizing with `rem` units in the CSS
 * Support for a wide gamut of HTML elements
@@ -23,8 +23,8 @@ A [Bootstrap](http://getbootstrap.com) responsive two-column [Jekyll](http://jek
 In addition to the features of Jekyll, Minima adds the following:
 
 * Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/RhymeTek/Minima#reverse-layout) (right sidebar), available via `<body>` classes
-* [Eight optional color schemes](https://github.com/RhymeTek/Minima#themes), available via `<body>` classes
+* [Optional color schemes](https://github.com/{{ site.github.username }}{{ site.baseurl }}#custom-navbar), available via [_config.yml](./_config.yml#L17)
+* Two orientations for sidebar, default (alphabetical order) and [custom](https://github.com/RhymeTek/Minima#custom-layout), available via [_config.yml](./_config.yml#L18) and configure `_data/navbar.yml`
 
 ### Browser support
 
