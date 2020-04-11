@@ -22,7 +22,7 @@ Oh, and one thing I cannot stand is the mangling of words with multiple undersco
 A bit of the GitHub Gist
 ------------------------
 
-{% gist 6dda7971e240f0a3f282 2. Thumbnail.png %}
+{% gist 6dda7971e240f0a3f282 2.%20Thumbnail.png %}
 
 
 Math is hard, let's go shopping
