@@ -22,7 +22,7 @@ Oh, and one thing I cannot stand is the mangling of words with multiple undersco
 A bit of the GitHub Gist
 ------------------------
 
-{% gist c08ee0f2726fd0e3909d %}
+{% gist 041621b7c824bfeea7136efbb9e69922 Japanese%20style%20horizontal%20kaomoji%20faces.txt %}
 
 
 Math is hard, let's go shopping
