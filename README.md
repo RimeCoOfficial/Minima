@@ -1,14 +1,19 @@
-# Minima
-A slenderize two-column [Jekyll](http://jekyllrb.com) documentation theme that pairs a prominent navbar with uncomplicated content. Its built on [Bootstrap](http://getbootstrap.com) responsive front-end framework.
+Minima
+======
 
-[Demo the Theme](http://rimeofficial.github.com/jelly-bean/)
+A [Bootstrap](http://getbootstrap.com) responsive two-column [Jekyll](http://jekyllrb.com) documentation theme that pairs a prominent navbar with uncomplicated content.
+
+[Demo the Theme](HTTPS://RhymeTek.GITHUB.COM/Minima/)
 
 This is the raw HTML and styles that are used for the *minimal* theme on [GitHub Pages](http://pages.github.com/).
 
 Syntax highlighting is provided on GitHub Pages by [Pygments](http://pygments.org).
 
-## Pages
-Create a list of pages in the navbar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/) and placing them in `_docs` folder
+Pages
+-----
+
+Create a list of pages in the navbar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/) and placing them in `_pages` folder
+
 ```
 ---
 title: Foobar
