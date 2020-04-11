@@ -2,7 +2,7 @@
 markdown:         kramdown
 highlighter:      rouge
 
-gems:             [jekyll-sitemap]
+gems:             [jekyll-sitemap, jekyll-gist, jekyll-seo-tag]
 plugins:
   - jekyll-gist
   - jekyll-seo-tag
