@@ -2,8 +2,10 @@
 markdown:         kramdown
 highlighter:      rouge
 
-gems:             [jekyll-sitemap, jekyll-gist, jekyll-seo-tag]
-plugins:          [jekyll-gist, jekyll-seo-tag]
+gems:             [jekyll-sitemap]
+plugins:
+  - jekyll-gist
+  - jekyll-seo-tag
 
 permalink:        pretty
 
