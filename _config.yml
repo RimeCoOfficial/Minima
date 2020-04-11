@@ -38,14 +38,14 @@ github:
   username:       RhymeTek
 
 collections:
-  docs:
+  pages:
     output:       true
     permalink:    /:path
 
 defaults:
   - scope:
       path:       ''
-      type:       docs
+      type:       pages
     values:
       layout:     default
 
