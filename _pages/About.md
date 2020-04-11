@@ -35,3 +35,9 @@ Jelly Bean is by preference a forward-thinking project. In addition to the lates
 Jelly Bean is developed on and hosted with GitHub. Head to the <a href="https://github.com/{{ site.github.username }}{{ site.baseurl }}">GitHub repository</a> for downloads, bug reports, and features requests.
 
 Thanks!
+
+```
+Build infos:
+  - Build time: {{ site.time | date_to_rfc822 }}
+  - Unix build time: {{ site.time | date:"%s" }}
+```
