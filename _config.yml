@@ -11,6 +11,8 @@ permalink:        pretty
 title:            Minima
 description:      'A Theme for GitHub Pages'
 baseurl:          /Minima
+color:            DA2E75
+navbar:           Default
 
 # SEO Advanced usage
 twitter:
@@ -21,7 +23,7 @@ facebook:
   # admins:         1234
 logo:             https://avatars1.githubusercontent.com/u/8429423?v=3&s=500
 # google_site_verification: KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU
-author:           Rhyme Tek
+author:           Rhyme Tek.
 image:
   twitter:        https://avatars1.githubusercontent.com/u/8429423?v=3&s=500
   facebook:       https://avatars1.githubusercontent.com/u/8429423?v=3&s=500
@@ -39,10 +41,6 @@ collections:
   docs:
     output:       true
     permalink:    /:path
-    order:
-      - Jekyll.md
-      - Example.md
-      - About.md
 
 defaults:
   - scope:
@@ -52,8 +50,4 @@ defaults:
       layout:     default
 
 google_analytics: UA-41643154-1
-
-app:
-  name:           Rhyme Tek
-  url:            https://rime.co
-  blog:           rimeofficial.tumblr.com
+blog:             rimeofficial.tumblr.com

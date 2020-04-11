@@ -80,7 +80,7 @@ Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo r
 
 Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
 
-![placeholder](https://via.placeholder.com/800x600/DA2E75/ffffff "Large example image C/O https://placeholder.com/")
+![placeholder](https://via.placeholder.com/800x600/{{site.color}}/FFFFFF "Large example image C/O https://placeholder.com/")
 
 ### Tables
 

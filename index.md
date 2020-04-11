@@ -19,26 +19,8 @@ Violets are blue
 
 Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.
 
-A bit of the GitHub spice
--------------------------
-
-In addition to the changes in the previous section, certain references are auto-linked:
-
-<ul>
-  <li>SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
-  <li>User@SHA ref: <a href="https://github.com/mojombo/product/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo@<tt>be6a8cc</tt></a></li>
-  <li>User/Project@SHA: <a href="https://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo/god@<tt>be6a8cc</tt></a></li>
-  <li>#Num: <a href="https://github.com/github/product/issues/1" class="issue-link" title="Baseline: What is up in the air right now?">#1</a></li>
-  <li>User/#Num: mojombo#1</li>
-  <li>User/Project#Num: <a href="https://github.com/mojombo/god/issues/1" class="issue-link" title="The server is not available (or you do not have permissions to access it)">mojombo/god#1</a></li>
-</ul>
-
-These are dangerous goodies though, and we need to make sure email addresses don't get mangled:
-
-My email address is tom@github.com.
-
-Embed Gist
-----------
+A bit of the GitHub Gist
+------------------------
 
 {% gist c08ee0f2726fd0e3909d %}
 
@@ -114,25 +96,26 @@ Preformatted blocks are useful for ASCII art:
 
 <pre>
 
-         _ .....Hit me I dare you......ya ya ya....
+         _ .....HIT ME I DARE YOU......YA YA YA....
         / \
     __/    \_
-   /_  -  \  \                      ,:',:`,:' ........Oh yeah, yes you...HA!
+   /_  -  \  \                      ,:',:`,:' ........OH YEAH, YES YOU...HA!
   / / /     \ \                  __||_||_||_||___
  |    |     / |             ____[""""""""""""""""]___
  /   /     \   \            \ " '''''''''''''''''''' \
  ~~^~^~HZ~~^~^~^~~^~^~^~~jgs~^~^~^^~^~^~^~^~^~^~^~~^~^~^~^~~^~^
 
                   _
-                 / \ ......See, I told you.....
+                 / \ ......SEE, I TOLD YOU.....
              __/    \_
-            /_  -  \  \                   ____  ..... Oh, heck...gulp..glub..
+            /_  -  \  \                   ____  .....OH, HECK...GULP..GLUB..
            / / /     \ \            ,' ._|    \
           |   |     /  |            :__: :    |
          /   /      \   \            --: :    |\o
 ~~^~~^~~~~^^~^~^~^~^~^~~~^~~^~HZ~~^~^~~~^~^~^^~~~~^~^~^~~^^^~^^^
 
--- Howard Zivotofsky (HZ) https://ascii.co.uk/art/titanic
+  Howard Zivotofsky (HZ) 
+  https://ascii.co.uk/art/titanic
 
 </pre>
 
