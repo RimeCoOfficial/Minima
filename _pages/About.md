@@ -8,7 +8,7 @@ A [Bootstrap](http://getbootstrap.com) responsive two-column [Jekyll](http://jek
 
 ### Built on Jekyll
 
-* Complete Jekyll setup included (layouts, config, [404]({{ site.baseurl }}/404), [Sitemap]({{ site.baseurl }}/sitemap.xml), [robots]({{ site.baseurl }}/robots.txt), [build]({{ site.baseurl }}/site.github.json) and [example pages]({{ site.baseurl }}/example))
+* Complete Jekyll setup included (layouts, config, [404]({{ site.baseurl }}/404), [Sitemap]({{ site.baseurl }}/sitemap.xml), [robots]({{ site.baseurl }}/robots.txt), [build]({{ site.baseurl }}/site.github.json) and [example pages]({{ site.baseurl }}/Example))
 * Mobile friendly design and development
 * Easily scalable text and component sizing with `rem` units in the CSS
 * Support for a wide gamut of HTML elements
@@ -23,8 +23,8 @@ A [Bootstrap](http://getbootstrap.com) responsive two-column [Jekyll](http://jek
 In addition to the features of Jekyll, Minima adds the following:
 
 * Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* [Optional color schemes](https://github.com/{{ site.github.username }}{{ site.baseurl }}#custom-navbar), available via [_config.yml](./_config.yml#L17)
-* Two orientations for sidebar, default (alphabetical order) and [custom](https://github.com/RhymeTek/Minima#custom-layout), available via [_config.yml](./_config.yml#L18) and configure `_data/navbar.yml`
+* Optional color schemes, available via `_config.yml#L17` and default is `DA2E75`
+* Two orientations for sidebar, `Default` (alphabetical order) and [`Custom`](https://github.com/{{ site.github.username }}{{ site.baseurl }}#custom-navbar), available via `_config.yml#L18` and configure `_data/navbar.yml`
 
 ### Browser support
 
@@ -35,3 +35,9 @@ Jelly Bean is by preference a forward-thinking project. In addition to the lates
 Jelly Bean is developed on and hosted with GitHub. Head to the <a href="https://github.com/{{ site.github.username }}{{ site.baseurl }}">GitHub repository</a> for downloads, bug reports, and features requests.
 
 Thanks!
+
+```
+Build infos:
+  - Build time: {{ site.time | date_to_rfc822 }}
+  - Unix build time: {{ site.time | date:"%s" }}
+```
