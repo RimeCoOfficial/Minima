@@ -26,11 +26,11 @@ facebook:
   app_id:         510262139040639
   publisher:      297545803726080
   admins:         suvozit
-logo:             /images/logo.png
+logo:             /images/logo-share.png
 author:           Rhyme Tek.
 image:
-  twitter:        /images/logo.png
-  facebook:       /images/logo.png
+  twitter:        /images/logo-share.png
+  facebook:       /images/logo-share.png
   height:         500
   width:          500
 social:
