@@ -16,7 +16,7 @@ A [Bootstrap](http://getbootstrap.com) responsive two-column [Jekyll](http://jek
 	- [Sitemap]({{ site.baseurl }}/sitemap.xml)
 	- [robots.txt]({{ site.baseurl }}/robots.txt)
 	- [feed.xml]({{ site.baseurl }}/feed.xml)
-	- GitHub Build Status [site.github.json]({{ site.baseurl }}/site.github.json)
+	- [GitHub Data API]({{ site.baseurl }}/site.github.json)
 * Mobile friendly design and development
 * Easily scalable text and component sizing with `rem` units in the CSS
 * Support for a wide gamut of HTML elements
