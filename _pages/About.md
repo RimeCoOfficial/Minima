@@ -16,7 +16,7 @@ A [Bootstrap](http://getbootstrap.com) responsive two-column [Jekyll](http://jek
 	- [Sitemap]({{ site.baseurl }}/sitemap.xml)
 	- [robots.txt]({{ site.baseurl }}/robots.txt)
 	- [feed.xml]({{ site.baseurl }}/feed.xml)
-	- [GitHub Data API]({{ site.baseurl }}/site.github.json)
+	- [Public Repos]({{ site.baseurl }}/Open Source)
 * Mobile friendly design and development
 * Easily scalable text and component sizing with `rem` units in the CSS
 * Support for a wide gamut of HTML elements
@@ -43,9 +43,3 @@ Jelly Bean is by preference a forward-thinking project. In addition to the lates
 Jelly Bean is developed on and hosted with GitHub. Head to the <a href="https://github.com/{{ site.github.username }}{{ site.baseurl }}">GitHub repository</a> for downloads, bug reports, and features requests.
 
 Thanks!
-
-```
-Build infos:
-  - Build time: {{ site.time | date_to_rfc822 }}
-  - Unix build time: {{ site.time | date:"%s" }}
-```
