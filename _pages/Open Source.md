@@ -28,7 +28,8 @@ Organization Members
     {% endfor %}
 </ol>
 
-Build Revision [{{ site.github.build_revision | truncate: 7, "" }}](./site.github.json)
+Build Revision: [{{ site.github.build_revision | truncate: 7, "" }}](./site.github.json)
+
 ```
   Build Info:
   - Build time: {{ site.time | date_to_rfc822 }}
