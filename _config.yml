@@ -18,8 +18,7 @@ baseurl:          /Minima
 color:            DA2E75
 navbar:           Default
 
-# SEO jekyll-seo-tag
-# https://github.com/jekyll/jekyll-seo-tag
+# jekyll-seo-tag
 twitter:
   username:       rimeofficial
   card:           summary
@@ -49,6 +48,14 @@ webmaster_verifications:
   yandex: 1234
   baidu: 1234
 lang: en_UK
+
+# jekyll-sitemap
+defaults:
+  -
+    scope:
+      path:            "assets/*"
+    values:
+      sitemap:         false
 
 # Custom vars
 version:          2.0.2
