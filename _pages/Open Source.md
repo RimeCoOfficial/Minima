@@ -30,7 +30,7 @@ Organization Members
     {% endfor %}
 </div>
 
-Build Revision: [{{ site.github.build_revision | truncate: 7, "" }}](./site.github.json)
+Build Revision [{{ site.github.build_revision | truncate: 7, "" }}](./site.github.json)
 
 ```
   Build Info:
