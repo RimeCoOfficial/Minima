@@ -57,6 +57,15 @@ Organization Members
     </a>
 </div>
 
+<div class="row">
+    {% for contributor in site.github.organization_members %}
+    <div class="col-xs-6 col-md-3">
+    <a href="{{ contributor.html_url }}" class="thumbnail" title="{{ contributor.login }}">
+      <img src="contributor.avatar_url" alt="{{ contributor.login }}">
+    </a>
+    </div>
+    {% endfor %}
+</div>
 
 <ol>
     {% for contributor in site.github.organization_members %}
