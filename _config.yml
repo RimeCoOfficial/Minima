@@ -51,8 +51,7 @@ lang: en_UK
 
 # jekyll-sitemap
 defaults:
-  -
-    scope:
+  - scope:
       path:            "assets/*"
     values:
       sitemap:         false
