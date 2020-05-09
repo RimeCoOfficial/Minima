@@ -20,15 +20,17 @@ title: Public Repositories
 Organization Members
 --------------------
 
-<ol>
+<div class="row">
     {% for contributor in site.github.organization_members %}
-        <li>
-            <a href="{{ contributor.html_url }}">{{ contributor.login }}</a>
-        </li>
+    <div class="col-xs-6 col-md-3">
+    <a href="{{ contributor.html_url }}" class="thumbnail" title="@{{ contributor.login }}">
+      <img src="{{ contributor.avatar_url }}" alt="{{ contributor.login }}">
+    </a>
+    </div>
     {% endfor %}
-</ol>
+</div>
 
-Build Revision: [{{ site.github.build_revision | truncate: 7, "" }}](./site.github.json)
+Build Revision [{{ site.github.build_revision | truncate: 7, "" }}](./site.github.json)
 
 ```
   Build Info:
