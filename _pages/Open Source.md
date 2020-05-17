@@ -22,7 +22,7 @@ Organization Members
 
 <div class="row">
     {% for contributor in site.github.organization_members %}
-    <div class="col-xs-6 col-md-3">
+    <div class="col-xs-6 col-md-4">
     <a href="{{ contributor.html_url }}" class="thumbnail" title="@{{ contributor.login }}">
       <img src="{{ contributor.avatar_url }}" alt="{{ contributor.login }}">
     </a>
