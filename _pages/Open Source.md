@@ -30,10 +30,8 @@ Organization Members
     {% endfor %}
 </div>
 
-Build Revision [{{ site.github.build_revision | truncate: 7, "" }}](./site.github.json)
-
 ```
-  Build Info:
-  - Build time: {{ site.time | date_to_rfc822 }}
-  - Unix build time: {{ site.time | date:"%s" }}
+Build Revision [{{ site.github.build_revision | truncate: 7, "" }}](./site.github.json)
+ - Build time: {{ site.time | date_to_rfc822 }}
+ - Unix build time: {{ site.time | date:"%s" }}
 ```
